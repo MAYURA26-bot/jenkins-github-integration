@@ -1,4 +1,4 @@
-// This pipeline is triggered via Jenkins SCM Polling
+// This pipeline is triggered via Jenkins SCM Polling H/2 * * * *
 
 pipeline {
     agent any
