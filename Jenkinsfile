@@ -1,3 +1,5 @@
+// This pipeline is triggered via Jenkins SCM Polling (not webhook).
+
 pipeline {
     agent any
 
