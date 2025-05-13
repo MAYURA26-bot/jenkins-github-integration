@@ -8,6 +8,7 @@ pipeline {
             steps {
                 echo 'Task: Compile and package the source code.'
                 echo 'Tool: Maven'
+                echo 'polling testing'
             }
         }
 
