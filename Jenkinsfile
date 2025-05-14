@@ -1,5 +1,3 @@
-// This pipeline is triggered via Jenkins SCM Polling after 2 minutes
-
 pipeline {
     agent any
 
@@ -8,7 +6,6 @@ pipeline {
             steps {
                 echo 'Task: Compile and package the source code.'
                 echo 'Tool: Maven'
-                echo 'polling testing 1'
             }
         }
 
